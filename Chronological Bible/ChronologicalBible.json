@@ -3,168 +3,188 @@
     {
       "day": 1,
       "date": "January 1",
-      "text": "Geneza 1-3",
-      "summary": "Crearea lumii, a omului și a păcatului originar."
+      "text": "Geneza 1-7",
+      "summary": "Crearea lumii, căderea omului, potopul lui Noe."
     },
     {
       "day": 2,
       "date": "January 2",
-      "text": "Geneza 4-7",
-      "summary": "Cain și Abel, descendenții lui Adam, corupția omenirii, potopul lui Noe."
-    },
-    {
-      "day": 3,
-      "date": "January 3",
       "text": "Geneza 8-11",
       "summary": "Sfârșitul potopului, legământul cu Noe, turnul Babel."
     },
     {
+      "day": 3,
+      "date": "January 3",
+      "text": "Iov 1-5",
+      "summary": "Iov își pierde averea și familia, rămâne credincios."
+    },
+    {
       "day": 4,
       "date": "January 4",
-      "text": "Geneza 12-15",
-      "summary": "Chemarea lui Avraam, promisiunea țării, legământul cu Avraam."
+      "text": "Iov 6-9",
+      "summary": "Dialogul lui Iov cu prietenii săi despre suferință."
     },
     {
       "day": 5,
       "date": "January 5",
-      "text": "Geneza 16-18",
-      "summary": "Nașterea lui Ismael, promisiunea lui Isaac, vizita îngerilor."
+      "text": "Iov 10-13",
+      "summary": "Iov continuă să-și apere nevinovăția."
     },
     {
       "day": 6,
       "date": "January 6",
-      "text": "Geneza 19-21",
-      "summary": "Distrugerea Sodomei și Gomorei, nașterea lui Isaac."
+      "text": "Iov 14-16",
+      "summary": "Iov se plânge de suferința sa, răspunsuri de la prieteni."
     },
     {
       "day": 7,
       "date": "January 7",
-      "text": "Geneza 22-24",
-      "summary": "Jertfirea lui Isaac, căsătoria lui Isaac cu Rebeca."
+      "text": "Iov 17-20",
+      "summary": "Iov răspunde acuzațiilor prietenilor săi."
     },
     {
       "day": 8,
       "date": "January 8",
-      "text": "Geneza 25-26",
-      "summary": "Nașterea lui Esau și Iacov, binecuvântarea lui Isaac."
+      "text": "Iov 21-23",
+      "summary": "Iov reflectă asupra prosperității celor răi și a dreptății divine."
     },
     {
       "day": 9,
       "date": "January 9",
-      "text": "Geneza 27-29",
-      "summary": "Iacov fură binecuvântarea, fuge la Laban, visează scara."
+      "text": "Iov 24-28",
+      "summary": "Iov descrie suferința celor nevinovați și măreția lui Dumnezeu."
     },
     {
       "day": 10,
       "date": "January 10",
-      "text": "Geneza 30-31",
-      "summary": "Nașterea copiilor lui Iacov, plecarea de la Laban."
+      "text": "Iov 29-31",
+      "summary": "Iov își apără integritatea și viața trecută."
     },
     {
       "day": 11,
       "date": "January 11",
-      "text": "Geneza 32-34",
-      "summary": "Iacov se luptă cu Dumnezeu, întâlnirea cu Esau, răzbunarea asupra Sihemului."
+      "text": "Iov 32-34",
+      "summary": "Elihu începe să-i vorbească lui Iov despre dreptatea lui Dumnezeu."
     },
     {
       "day": 12,
       "date": "January 12",
-      "text": "Geneza 35-37",
-      "summary": "Nașterea lui Beniamin, vânzarea lui Iosif."
+      "text": "Iov 35-37",
+      "summary": "Elihu continuă să explice suferința și măreția lui Dumnezeu."
     },
     {
       "day": 13,
       "date": "January 13",
-      "text": "Geneza 38-40",
-      "summary": "Iuda și Tamar, Iosif în Egipt, interpretarea viselor."
+      "text": "Iov 38-39",
+      "summary": "Dumnezeu îi răspunde lui Iov din furtună."
     },
     {
       "day": 14,
       "date": "January 14",
-      "text": "Geneza 41-42",
-      "summary": "Iosif devine conducător în Egipt, frații vin după hrană."
+      "text": "Iov 40-42",
+      "summary": "Iov se smerește, Dumnezeu îl restaurează."
     },
     {
       "day": 15,
       "date": "January 15",
-      "text": "Geneza 43-45",
-      "summary": "Frații lui Iosif se întorc, Iosif se descoperă lor."
+      "text": "Geneza 12-15",
+      "summary": "Chemarea lui Avraam, promisiunea țării, legământul cu Avraam."
     },
     {
       "day": 16,
       "date": "January 16",
-      "text": "Geneza 46-47",
-      "summary": "Iacov și familia sa se stabilesc în Egipt."
+      "text": "Geneza 16-18",
+      "summary": "Nașterea lui Ismael, promisiunea lui Isaac, vizita îngerilor."
     },
     {
       "day": 17,
       "date": "January 17",
-      "text": "Geneza 48-50",
-      "summary": "Binecuvântarea fiilor lui Iosif, moartea lui Iacov și Iosif."
+      "text": "Geneza 19-21",
+      "summary": "Distrugerea Sodomei și Gomorei, nașterea lui Isaac."
     },
     {
       "day": 18,
       "date": "January 18",
-      "text": "Exod 1-4",
-      "summary": "Oprimarea evreilor, nașterea și chemarea lui Moise."
+      "text": "Geneza 22-24",
+      "summary": "Jertfirea lui Isaac, căsătoria lui Isaac cu Rebeca."
     },
-    { "day": 19, "date": "January 19", "text": "Exod 5-7", "summary": "Moise și Aaron cer eliberarea, primele plăgi." },
-    { "day": 20, "date": "January 20", "text": "Exod 8-10", "summary": "Plăgile asupra Egiptului." },
-    { "day": 21, "date": "January 21", "text": "Exod 11-13", "summary": "Ultima plagă, Paștele și ieșirea din Egipt." },
+    {
+      "day": 19,
+      "date": "January 19",
+      "text": "Geneza 25-26",
+      "summary": "Nașterea lui Esau și Iacov, binecuvântarea lui Isaac."
+    },
+    {
+      "day": 20,
+      "date": "January 20",
+      "text": "Geneza 27-29",
+      "summary": "Iacov fură binecuvântarea, fuge la Laban, visează scara."
+    },
+    {
+      "day": 21,
+      "date": "January 21",
+      "text": "Geneza 30-31",
+      "summary": "Nașterea copiilor lui Iacov, plecarea de la Laban."
+    },
     {
       "day": 22,
       "date": "January 22",
-      "text": "Exod 14-16",
-      "summary": "Despărțirea Mării Roșii, mana și prepelițele în pustiu."
+      "text": "Geneza 32-34",
+      "summary": "Iacov se luptă cu Dumnezeu, întâlnirea cu Esau, răzbunarea asupra Sihemului."
     },
     {
       "day": 23,
       "date": "January 23",
-      "text": "Exod 17-19",
-      "summary": "Apa din stâncă, victoria asupra amaleciților, sosirea la Sinai."
+      "text": "Geneza 35-37",
+      "summary": "Nașterea lui Beniamin, vânzarea lui Iosif."
     },
     {
       "day": 24,
       "date": "January 24",
-      "text": "Exod 20-22",
-      "summary": "Cele Zece Porunci și legi pentru poporul Israel."
+      "text": "Geneza 38-40",
+      "summary": "Iuda și Tamar, Iosif în Egipt, interpretarea viselor."
     },
     {
       "day": 25,
       "date": "January 25",
-      "text": "Exod 23-25",
-      "summary": "Legi suplimentare, sărbători și instrucțiuni pentru cortul întâlnirii."
+      "text": "Geneza 41-42",
+      "summary": "Iosif devine conducător în Egipt, frații vin după hrană."
     },
     {
       "day": 26,
       "date": "January 26",
-      "text": "Exod 26-28",
-      "summary": "Instrucțiuni pentru cort și veșmintele preoțești."
+      "text": "Geneza 43-45",
+      "summary": "Frații lui Iosif se întorc, Iosif se descoperă lor."
     },
-    { "day": 27, "date": "January 27", "text": "Exod 29-31", "summary": "Consacrarea preoților și legi despre Sabat." },
+    {
+      "day": 27,
+      "date": "January 27",
+      "text": "Geneza 46-47",
+      "summary": "Iacov și familia sa se stabilesc în Egipt."
+    },
     {
       "day": 28,
       "date": "January 28",
-      "text": "Exod 32-34",
-      "summary": "Vițelul de aur, mijlocirea lui Moise, reînnoirea legământului."
+      "text": "Geneza 48-50",
+      "summary": "Binecuvântarea fiilor lui Iosif, moartea lui Iacov și Iosif."
     },
     {
       "day": 29,
       "date": "January 29",
-      "text": "Exod 35-37",
-      "summary": "Construirea cortului și a obiectelor sfinte."
+      "text": "Exodul 1-3",
+      "summary": "Oprimarea evreilor, nașterea și chemarea lui Moise."
     },
     {
       "day": 30,
       "date": "January 30",
-      "text": "Exod 38-40",
-      "summary": "Finalizarea cortului și prezența lui Dumnezeu."
+      "text": "Exodul 4-6",
+      "summary": "Moise și Aaron cer eliberarea, primele plăgi."
     },
     {
       "day": 31,
       "date": "January 31",
-      "text": "Exod 41-43",
-      "summary": "(Verifică referința, Exod are doar 40 capitole. Poate fi o eroare de numerotare.)"
+      "text": "Exodul 7-9",
+      "summary": "Plăgile asupra Egiptului."
     },
 
     { "day": 32, "date": "February 1", "text": "Exodul 10-12", "summary": "Ultimele plăgi și instituirea Paștelui." },
@@ -431,320 +451,495 @@
     {
       "day": 91,
       "date": "April 1",
-      "text": "Judecători 6-7",
-      "summary": "Ghedeon este chemat și obține victoria asupra madianiților."
-    },
-    {
-      "day": 92,
-      "date": "April 2",
       "text": "Judecători 8-9",
       "summary": "Ghedeon și Abimelec: conducere, conflicte și judecată."
     },
     {
-      "day": 93,
-      "date": "April 3",
+      "day": 92,
+      "date": "April 2",
       "text": "Judecători 10-12",
       "summary": "Tola, Iair și Iefta: eliberarea și jertfa fiicei lui Iefta."
     },
-    { "day": 94, "date": "April 4", "text": "Judecători 13-15", "summary": "Nașterea și faptele lui Samson." },
-    { "day": 95, "date": "April 5", "text": "Judecători 16-18", "summary": "Samson și Dalila, idolatria lui Mica." },
+    { "day": 93, "date": "April 3", "text": "Judecători 13-15", "summary": "Nașterea și faptele lui Samson." },
+    { "day": 94, "date": "April 4", "text": "Judecători 16-18", "summary": "Samson și Dalila, idolatria lui Mica." },
     {
-      "day": 96,
-      "date": "April 6",
+      "day": 95,
+      "date": "April 5",
       "text": "Judecători 19-21",
       "summary": "Războiul împotriva lui Beniamin și restaurarea tribului."
     },
-    { "day": 97, "date": "April 7", "text": "Rut 1-4", "summary": "Devotamentul lui Rut și răscumpărarea prin Boaz." },
+    { "day": 96, "date": "April 6", "text": "Rut 1-4", "summary": "Devotamentul lui Rut și răscumpărarea prin Boaz." },
     {
-      "day": 98,
-      "date": "April 8",
+      "day": 97,
+      "date": "April 7",
       "text": "1 Samuel 1-3",
       "summary": "Nașterea lui Samuel și chemarea sa ca profet."
     },
-    { "day": 99, "date": "April 9", "text": "1 Samuel 4-8", "summary": "Pierderea chivotului și cererea unui rege." },
-    { "day": 100, "date": "April 10", "text": "1 Samuel 9-12", "summary": "Saul este uns rege și confirmat de popor." },
+    { "day": 98, "date": "April 8", "text": "1 Samuel 4-8", "summary": "Pierderea chivotului și cererea unui rege." },
+    { "day": 99, "date": "April 9", "text": "1 Samuel 9-12", "summary": "Saul este uns rege și confirmat de popor." },
     {
-      "day": 101,
-      "date": "April 11",
+      "day": 100,
+      "date": "April 10",
       "text": "1 Samuel 13-14",
       "summary": "Primele lupte ale lui Saul cu filistenii."
     },
     {
-      "day": 102,
-      "date": "April 12",
+      "day": 101,
+      "date": "April 11",
       "text": "1 Samuel 15-17",
       "summary": "Saul este respins, David îl învinge pe Goliat."
     },
     {
-      "day": 103,
-      "date": "April 13",
+      "day": 102,
+      "date": "April 12",
       "text": "1 Samuel 18-20, Psalmii 11, 59",
       "summary": "David fuge de Saul, psalmi de încredere în Dumnezeu."
     },
     {
-      "day": 104,
-      "date": "April 14",
+      "day": 103,
+      "date": "April 13",
       "text": "1 Samuel 21-24",
       "summary": "David se ascunde de Saul, arată milă față de rege."
     },
     {
-      "day": 105,
-      "date": "April 15",
+      "day": 104,
+      "date": "April 14",
       "text": "Psalmii 7, 27, 31, 34, 52",
       "summary": "Psalmii lui David: rugăciuni pentru ajutor și protecție."
     },
     {
-      "day": 106,
-      "date": "April 16",
+      "day": 105,
+      "date": "April 15",
       "text": "Psalmii 56, 120, 140-142",
       "summary": "Psalmii de strigăt și încredere în necaz."
     },
     {
-      "day": 107,
-      "date": "April 17",
+      "day": 106,
+      "date": "April 16",
       "text": "1 Samuel 25-27",
       "summary": "David și Abigail, David printre filisteni."
     },
     {
-      "day": 108,
-      "date": "April 18",
+      "day": 107,
+      "date": "April 17",
       "text": "Psalmii 17, 35, 54, 63",
       "summary": "Psalmii de rugăciune și dor după Dumnezeu."
     },
     {
-      "day": 109,
-      "date": "April 19",
+      "day": 108,
+      "date": "April 18",
       "text": "1 Samuel 28-31, Psalmii 18",
       "summary": "Moartea lui Saul și lauda lui David pentru izbăvire."
     },
     {
-      "day": 110,
-      "date": "April 20",
+      "day": 109,
+      "date": "April 19",
       "text": "Psalmii 121, 123-125, 128-130",
       "summary": "Psalmii de încredere și speranță în Dumnezeu."
     },
     {
-      "day": 111,
-      "date": "April 21",
+      "day": 110,
+      "date": "April 20",
       "text": "2 Samuel 1-4",
       "summary": "David plânge moartea lui Saul și devine rege peste Iuda."
     },
     {
-      "day": 112,
-      "date": "April 22",
+      "day": 111,
+      "date": "April 21",
       "text": "Psalmii 6, 8-10, 14, 16, 19, 21",
       "summary": "Psalmii de laudă, credință și rugăciune."
     },
-    { "day": 113, "date": "April 23", "text": "1 Cronici 1-2", "summary": "Genealogii de la Adam la fiii lui Israel." },
+    { "day": 112, "date": "April 22", "text": "1 Cronici 1-2", "summary": "Genealogii de la Adam la fiii lui Israel." },
     {
-      "day": 114,
-      "date": "April 24",
+      "day": 113,
+      "date": "April 23",
       "text": "Psalmii 43-45, 49, 84-85, 87",
       "summary": "Psalmii de dor, încredere și bucurie în Domnul."
     },
     {
-      "day": 115,
-      "date": "April 25",
+      "day": 114,
+      "date": "April 24",
       "text": "1 Cronici 3-5",
       "summary": "Genealogii și urmașii triburilor lui Israel."
     },
-    { "day": 116, "date": "April 26", "text": "Psalmii 73, 77-78", "summary": "" },
-    { "day": 117, "date": "April 27", "text": "1 Cronici 6", "summary": "" },
-    { "day": 118, "date": "April 28", "text": "Psalmii 81, 88, 92-93", "summary": "" },
-    { "day": 119, "date": "April 29", "text": "1 Cronici 7-10", "summary": "" },
-    { "day": 120, "date": "April 30", "text": "Psalmii 102-104", "summary": "" },
+    {
+      "day": 115,
+      "date": "April 25",
+      "text": "Psalmii 73, 77-78",
+      "summary": "Psalmii de meditație și istorie a poporului Israel."
+    },
+    {
+      "day": 116,
+      "date": "April 26",
+      "text": "1 Cronici 6",
+      "summary": "Genealogia leviților și slujirea lor în templu."
+    },
+    {
+      "day": 117,
+      "date": "April 27",
+      "text": "Psalmii 81, 88, 92-93",
+      "summary": "Psalmii de laudă, strigăt și mulțumire către Dumnezeu."
+    },
+    { "day": 118, "date": "April 28", "text": "1 Cronici 7-10", "summary": "Genealogii și moartea lui Saul." },
+    {
+      "day": 119,
+      "date": "April 29",
+      "text": "Psalmii 102-104",
+      "summary": "Psalmii de rugăciune, recunoștință și lauda creației."
+    },
+    {
+      "day": 120,
+      "date": "April 30",
+      "text": "2 Samuel 5:1-10, 1 Cronici 11-12",
+      "summary": "David devine rege peste tot Israelul și cucerește Ierusalimul."
+    },
 
-    { "day": 121, "date": "May 1", "text": "2 Samuel 5:1-10, 1 Cronici 11-12", "summary": "" },
-    { "day": 122, "date": "May 2", "text": "Psalmii 133", "summary": "" },
-    { "day": 123, "date": "May 3", "text": "Psalmii 106-107", "summary": "" },
-    { "day": 124, "date": "May 4", "text": "2 Samuel 5-11-6:23, 1 Cronici 13-16", "summary": "" },
-    { "day": 125, "date": "May 5", "text": "Psalmii 1-2, 15, 22-24, 47, 68", "summary": "" },
-    { "day": 126, "date": "May 6", "text": "Psalmii 89, 96, 100-101, 105, 132", "summary": "" },
-    { "day": 127, "date": "May 7", "text": "2 Samuel 7, 1 Cronici 17", "summary": "" },
-    { "day": 128, "date": "May 8", "text": "Psalmii 25, 29, 33, 36, 39", "summary": "" },
-    { "day": 129, "date": "May 9", "text": "2 Samuel 8-9, 1 Cronici 18", "summary": "" },
-    { "day": 130, "date": "May 10", "text": "Psalmii 50, 53, 60, 75", "summary": "" },
-    { "day": 131, "date": "May 11", "text": "2 Samuel 10, 1 Cronici 19, Psalmii 20", "summary": "" },
-    { "day": 132, "date": "May 12", "text": "Psalmii 65-67, 69-70", "summary": "" },
-    { "day": 133, "date": "May 13", "text": "2 Samuel 11-12, 1 Cronici 20", "summary": "" },
-    { "day": 134, "date": "May 14", "text": "Psalmii 32, 51, 86, 122", "summary": "" },
-    { "day": 135, "date": "May 15", "text": "2 Samuel 13-15", "summary": "" },
-    { "day": 136, "date": "May 16", "text": "Psalmii 3-4, 12-13, 28, 55", "summary": "" },
-    { "day": 137, "date": "May 17", "text": "2 Samuel 16-18", "summary": "" },
-    { "day": 138, "date": "May 18", "text": "Psalmii 26, 40, 58, 61-62, 64", "summary": "" },
-    { "day": 139, "date": "May 19", "text": "2 Samuel 19-21", "summary": "" },
-    { "day": 140, "date": "May 20", "text": "Psalmii 5, 38, 41-42", "summary": "" },
-    { "day": 141, "date": "May 21", "text": "2 Samuel 22-23, Psalmii 57", "summary": "" },
-    { "day": 142, "date": "May 22", "text": "Psalmii 95, 97-99", "summary": "" },
-    { "day": 143, "date": "May 23", "text": "2 Samuel 24, 1 Cronici 21-22, Psalmii 30", "summary": "" },
-    { "day": 144, "date": "May 24", "text": "Psalmii 108-110", "summary": "" },
-    { "day": 145, "date": "May 25", "text": "1 Cronici 23-25", "summary": "" },
-    { "day": 146, "date": "May 26", "text": "Psalmii 131, 138-139, 143-145", "summary": "" },
-    { "day": 147, "date": "May 27", "text": "1 Cronici 26-29, Psalmii 127", "summary": "" },
-    { "day": 148, "date": "May 28", "text": "Psalmii 111-118", "summary": "" },
-    { "day": 149, "date": "May 29", "text": "1 Împărați 1-2, Psalmii 37, 71, 94", "summary": "" },
-    { "day": 150, "date": "May 30", "text": "Psalmii 119:1-88", "summary": "" },
-    { "day": 151, "date": "May 31", "text": "1 Împărați 3-4, 2 Cronici 1, Psalmii 72", "summary": "" },
-    { "day": 152, "date": "June 1", "text": "Psalmii 119:89-176", "summary": "" },
+    { "day": 121, "date": "May 1", "text": "Psalmii 133", "summary": "Unitatea și armonia între frați." },
+    {
+      "day": 122,
+      "date": "May 2",
+      "text": "Psalmii 106-107",
+      "summary": "Recapitularea istoriei lui Israel și mulțumire pentru izbăvire."
+    },
+    {
+      "day": 123,
+      "date": "May 3",
+      "text": "2 Samuel 5-11-6:23, 1 Cronici 13-16",
+      "summary": "Aducerea chivotului la Ierusalim și organizarea închinării."
+    },
+    {
+      "day": 124,
+      "date": "May 4",
+      "text": "Psalmii 1-2, 15, 22-24, 47, 68",
+      "summary": "Psalmii despre neprihănire, domnia lui Dumnezeu și închinare."
+    },
+    {
+      "day": 125,
+      "date": "May 5",
+      "text": "Psalmii 89, 96, 100-101, 105, 132",
+      "summary": "Psalmii de laudă, credincioșie și promisiuni pentru David."
+    },
+    {
+      "day": 126,
+      "date": "May 6",
+      "text": "2 Samuel 7, 1 Cronici 17",
+      "summary": "Dumnezeu promite o casă veșnică lui David."
+    },
+    {
+      "day": 127,
+      "date": "May 7",
+      "text": "Psalmii 25, 29, 33, 36, 39",
+      "summary": "Psalmii de încredere, laudă și reflecție asupra vieții."
+    },
+    {
+      "day": 128,
+      "date": "May 8",
+      "text": "2 Samuel 8-9, 1 Cronici 18",
+      "summary": "Victoriile lui David și bunătatea față de Mefiboșet."
+    },
+    {
+      "day": 129,
+      "date": "May 9",
+      "text": "Psalmii 50, 53, 60, 75",
+      "summary": "Psalmii despre judecata lui Dumnezeu și ajutor în necaz."
+    },
+    {
+      "day": 130,
+      "date": "May 10",
+      "text": "2 Samuel 10, 1 Cronici 19, Psalmii 20",
+      "summary": "Războiul cu amoniții și rugăciune pentru izbândă."
+    },
+    {
+      "day": 131,
+      "date": "May 11",
+      "text": "Psalmii 65-67, 69-70",
+      "summary": "Psalmii de mulțumire, rugăciune și salvare."
+    },
+    {
+      "day": 132,
+      "date": "May 12",
+      "text": "2 Samuel 11-12, 1 Cronici 20",
+      "summary": "Păcatul lui David cu Batșeba și pocăința sa."
+    },
+    {
+      "day": 133,
+      "date": "May 13",
+      "text": "Psalmii 32, 51, 86, 122",
+      "summary": "Psalmii de pocăință, rugăciune și închinare la Ierusalim."
+    },
+    {
+      "day": 134,
+      "date": "May 14",
+      "text": "2 Samuel 13-15",
+      "summary": "Absalom răzbună pe Tamar și se răscoală împotriva lui David."
+    },
+    {
+      "day": 135,
+      "date": "May 15",
+      "text": "Psalmii 3-4, 12-13, 28, 55",
+      "summary": "Psalmii de strigăt, încredere și refugiu în necaz."
+    },
+    { "day": 136, "date": "May 16", "text": "2 Samuel 16-18", "summary": "Războiul cu Absalom și moartea acestuia." },
+    {
+      "day": 137,
+      "date": "May 17",
+      "text": "Psalmii 26, 40, 58, 61-62, 64",
+      "summary": "Psalmii de credință, eliberare și judecată asupra celor răi."
+    },
+    {
+      "day": 138,
+      "date": "May 18",
+      "text": "2 Samuel 19-21",
+      "summary": "David se întoarce la Ierusalim și rezolvă conflicte."
+    },
+    {
+      "day": 139,
+      "date": "May 19",
+      "text": "Psalmii 5, 38, 41-42",
+      "summary": "Psalmii de rugăciune, suferință și dor după Dumnezeu."
+    },
+    {
+      "day": 140,
+      "date": "May 20",
+      "text": "2 Samuel 22-23, Psalmii 57",
+      "summary": "Cântarea de laudă a lui David și ultimele sale cuvinte."
+    },
+    {
+      "day": 141,
+      "date": "May 21",
+      "text": "Psalmii 95, 97-99",
+      "summary": "Psalmii despre domnia și sfințenia lui Dumnezeu."
+    },
+    {
+      "day": 142,
+      "date": "May 22",
+      "text": "2 Samuel 24, 1 Cronici 21-22, Psalmii 30",
+      "summary": "David numără poporul, pedeapsa și pregătiri pentru templu."
+    },
+    { "day": 143, "date": "May 23", "text": "Psalmii 108-110", "summary": "Psalmii de laudă și profeții mesianice." },
+    {
+      "day": 144,
+      "date": "May 24",
+      "text": "1 Cronici 23-25",
+      "summary": "Organizarea leviților și a slujirii în templu."
+    },
+    {
+      "day": 145,
+      "date": "May 25",
+      "text": "Psalmii 131, 138-139, 143-145",
+      "summary": "Psalmii de smerenie, laudă și rugăciune pentru ajutor."
+    },
+    {
+      "day": 146,
+      "date": "May 26",
+      "text": "1 Cronici 26-29, Psalmii 127",
+      "summary": "Administrarea templului și ultimele cuvinte ale lui David."
+    },
+    {
+      "day": 147,
+      "date": "May 27",
+      "text": "Psalmii 111-118",
+      "summary": "Psalmii de laudă și mulțumire pentru bunătatea lui Dumnezeu."
+    },
+    {
+      "day": 148,
+      "date": "May 28",
+      "text": "1 Împărați 1-2, Psalmii 37, 71, 94",
+      "summary": "Moartea lui David, domnia lui Solomon și psalmi de încredere."
+    },
+    {
+      "day": 149,
+      "date": "May 29",
+      "text": "Psalmii 119:1-88",
+      "summary": "Psalmul despre dragostea pentru Legea lui Dumnezeu (partea 1)."
+    },
+    {
+      "day": 150,
+      "date": "May 30",
+      "text": "1 Împărați 3-4, 2 Cronici 1, Psalmii 72",
+      "summary": "Înțelepciunea lui Solomon și rugăciunea pentru domnie dreaptă."
+    },
+    {
+      "day": 151,
+      "date": "May 31",
+      "text": "Psalmii 119:89-176",
+      "summary": "Psalmul despre dragostea pentru Legea lui Dumnezeu (partea 2)."
+    },
 
+    {
+      "day": 152,
+      "date": "June 1",
+      "text": "Cântarea Cântărilor 1-8",
+      "summary": "Poem de dragoste și relație dintre mire și mireasă."
+    },
     {
       "day": 153,
       "date": "June 2",
       "text": "Proverbele 1-3",
-      "summary": "Proverbele sunt îndemnări scurte și înțelepte."
+      "summary": "Îndemnuri la înțelepciune și ascultare de Dumnezeu."
     },
     {
       "day": 154,
       "date": "June 3",
       "text": "Proverbele 4-6",
-      "summary": "Proverbele sunt îndemnări scurte și înțelepte."
+      "summary": "Sfaturi despre viață, muncă și evitarea răului."
     },
     {
       "day": 155,
       "date": "June 4",
       "text": "Proverbele 7-9",
-      "summary": "Proverbele sunt îndemnări scurte și înțelepte."
+      "summary": "Avertismente împotriva ispitei și lauda înțelepciunii."
     },
     {
       "day": 156,
       "date": "June 5",
       "text": "Proverbele 10-12",
-      "summary": "Proverbele sunt îndemnări scurte și înțelepte."
+      "summary": "Proverbe despre dreptate, muncă și vorbire înțeleaptă."
     },
     {
       "day": 157,
       "date": "June 6",
       "text": "Proverbele 13-15",
-      "summary": "Proverbele sunt îndemnări scurte și înțelepte."
+      "summary": "Contrastul dintre înțelepciune și nebunie, binecuvântări și pedepse."
     },
     {
       "day": 158,
       "date": "June 7",
       "text": "Proverbele 16-18",
-      "summary": "Proverbele sunt îndemnări scurte și înțelepte."
+      "summary": "Proverbe despre planuri, vorbire și relații interumane."
     },
     {
       "day": 159,
       "date": "June 8",
       "text": "Proverbele 19-21",
-      "summary": "Proverbele sunt îndemnări scurte și înțelepte."
+      "summary": "Învățături despre familie, sărăcie și dreptate."
     },
     {
       "day": 160,
       "date": "June 9",
       "text": "Proverbele 22-24",
-      "summary": "Proverbele sunt îndemnări scurte și înțelepte."
+      "summary": "Sfaturi pentru tineri, avertismente și proverbe suplimentare."
     },
     {
       "day": 161,
       "date": "June 10",
       "text": "1 Împărați 5-6, 2 Cronici 2-3",
-      "summary": "Războiul lui David și înălțarea sa în Israel."
+      "summary": "Construcția Templului de către Solomon."
     },
     {
       "day": 162,
       "date": "June 11",
       "text": "1 Împărați 7, 2 Cronici 4",
-      "summary": "Războiul lui David și înălțarea sa în Israel."
+      "summary": "Finalizarea mobilierului și a detaliilor Templului."
     },
     {
       "day": 163,
       "date": "June 12",
       "text": "1 Împărați 8, 2 Cronici 5",
-      "summary": "Războiul lui David și înălțarea sa în Israel."
+      "summary": "Dedicarea Templului și aducerea chivotului."
     },
     {
       "day": 164,
       "date": "June 13",
       "text": "2 Cronici 6-7, Psalmii 136",
-      "summary": "Cronica înainte de împărțirea țării."
+      "summary": "Rugăciunea de dedicare a lui Solomon și lauda pentru bunătatea lui Dumnezeu."
     },
-    { "day": 165, "date": "June 14", "text": "Psalmii 134, 146-150", "summary": "Psalmii de rugăciune și înțelegere." },
+    {
+      "day": 165,
+      "date": "June 14",
+      "text": "Psalmii 134, 146-150",
+      "summary": "Psalmii de laudă și mulțumire către Dumnezeu."
+    },
     {
       "day": 166,
       "date": "June 15",
       "text": "1 Împărați 9, 2 Cronici 8",
-      "summary": "Războiul lui David și înălțarea sa în Israel."
+      "summary": "Consolidarea domniei lui Solomon și lucrările sale."
     },
     {
       "day": 167,
       "date": "June 16",
       "text": "Proverbele 25-26",
-      "summary": "Proverbele sunt îndemnări scurte și înțelepte."
+      "summary": "Proverbe despre relații, vorbire și comportament înțelept."
     },
     {
       "day": 168,
       "date": "June 17",
       "text": "Proverbele 27-29",
-      "summary": "Proverbele sunt îndemnări scurte și înțelepte."
+      "summary": "Învățături despre prietenie, corectare și dreptate."
     },
     {
       "day": 169,
       "date": "June 18",
       "text": "Eclesiastul 1-6",
-      "summary": "Eclesiastul este un învățător în înțelegere."
+      "summary": "Reflecții despre sensul vieții și deșertăciunea lucrurilor pământești."
     },
     {
       "day": 170,
       "date": "June 19",
       "text": "Eclesiastul 7-12",
-      "summary": "Eclesiastul este un învățător în înțelegere."
+      "summary": "Îndemnuri la înțelepciune și concluzia despre frica de Dumnezeu."
     },
     {
       "day": 171,
       "date": "June 20",
       "text": "1 Împărați 10-11, 2 Cronici 9",
-      "summary": "Războiul lui David și înălțarea sa în Israel."
+      "summary": "Vizita reginei din Saba și decăderea lui Solomon."
     },
     {
       "day": 172,
       "date": "June 21",
       "text": "Proverbele 30-31",
-      "summary": "Proverbele sunt îndemnări scurte și înțelepte."
+      "summary": "Cuvintele lui Agur și lauda femeii vrednice."
     },
     {
       "day": 173,
       "date": "June 22",
       "text": "1 Împărați 12-14",
-      "summary": "Războiul lui David și înălțarea sa în Israel."
+      "summary": "Împărțirea regatului și domnia lui Ieroboam."
     },
-    { "day": 174, "date": "June 23", "text": "2 Cronici 10-12", "summary": "Cronica înainte de împărțirea țării." },
+    {
+      "day": 174,
+      "date": "June 23",
+      "text": "2 Cronici 10-12",
+      "summary": "Revolta împotriva lui Roboam și invazia egipteană."
+    },
     {
       "day": 175,
       "date": "June 24",
       "text": "1 Împărați 15:1-24, 2 Cronici 13-16",
-      "summary": "Războiul lui David și înălțarea sa în Israel."
+      "summary": "Domniile lui Abia, Asa și conflictele cu Israelul."
     },
     {
       "day": 176,
       "date": "June 25",
       "text": "1 Împărați 15:25-16:34, 2 Cronici 17",
-      "summary": "Războiul lui David și înălțarea sa în Israel."
+      "summary": "Domniile lui Nadab, Bașa, Ela, Zimri, Omri și Iosafat."
     },
     {
       "day": 177,
       "date": "June 26",
       "text": "1 Împărați 17-19",
-      "summary": "Războiul lui David și înălțarea sa în Israel."
+      "summary": "Minunile și confruntările profetului Ilie."
     },
     {
       "day": 178,
       "date": "June 27",
       "text": "1 Împărați 20-21",
-      "summary": "Războiul lui David și înălțarea sa în Israel."
+      "summary": "Războaiele lui Ahab cu Siria și nedreptatea față de Nabot."
     },
     {
       "day": 179,
       "date": "June 28",
       "text": "1 Împărați 22, 2 Cronici 18",
-      "summary": "Războiul lui David și înălțarea sa în Israel."
+      "summary": "Moartea lui Ahab și profeția lui Mica."
     },
-    { "day": 180, "date": "June 29", "text": "2 Cronici 19-23", "summary": "Cronica înainte de împărțirea țării." },
+    { "day": 180, "date": "June 29", "text": "2 Cronici 19-23", "summary": "Reformele lui Iosafat și domnia Ataliei." },
     {
       "day": 181,
       "date": "June 30",
       "text": "Obadia 1, Psalmii 82-83",
-      "summary": "Psalmii de rugăciune și înțelegere."
+      "summary": "Profeție împotriva Edomului și psalmi despre dreptatea lui Dumnezeu."
     },
 
     {

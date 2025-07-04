@@ -82,6 +82,20 @@ struct TodayView: View {
                     .lineLimit(nil)
                     .multilineTextAlignment(.leading)
                 
+                // Show summary if available
+                if let summary = reading.summary, !summary.isEmpty {
+                    Divider()
+                    HStack(alignment: .top, spacing: 8) {
+                        Image(systemName: "text.bubble")
+                            .foregroundColor(.accentColor)
+                        Text(summary)
+                            .font(.callout)
+                            .foregroundColor(.primary)
+                            .multilineTextAlignment(.leading)
+                    }
+                    .padding(.top, 4)
+                }
+                
                 HStack {
                     Button("Mark as \(dataManager.isReadingCompleted(reading.day) ? "Unread" : "Read")") {
                         dataManager.toggleReadingCompletion(reading.day)

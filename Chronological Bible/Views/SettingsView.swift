@@ -129,6 +129,21 @@ struct SettingsView: View {
                     .frame(maxWidth: .infinity, alignment: .leading)
                     .padding(.vertical, 4)
                 }
+                
+                Section {
+                    NavigationLink(destination: SummariesView(dataManager: dataManager)) {
+                        HStack {
+                            Image(systemName: "text.bubble")
+                                .foregroundColor(.purple)
+                            Text("View All Summaries")
+                                .font(.headline)
+                        }
+                    }
+                } header: {
+                    Text("Summaries")
+                } footer: {
+                    Text("See a high-level overview of all summaries for the readings.")
+                }
             }
             .navigationTitle("Settings")
             .navigationBarTitleDisplayMode(.large)

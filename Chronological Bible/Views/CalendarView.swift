@@ -17,13 +17,69 @@ struct CalendarView: View {
                 // Month selector
                 monthSelector
                 
-                // Calendar grid
+                // Calendar grid with swipe gestures
                 calendarGrid
+                    .gesture(
+                        DragGesture()
+                            .onEnded { value in
+                                if abs(value.translation.width) > 50 {
+                                    if value.translation.width < 0 {
+                                        // Swipe left: next month
+                                        if selectedMonth < 12 {
+                                            selectedMonth += 1
+                                        } else {
+                                            selectedMonth = 1
+                                            selectedYear += 1
+                                        }
+                                    } else {
+                                        // Swipe right: previous month
+                                        if selectedMonth > 1 {
+                                            selectedMonth -= 1
+                                        } else {
+                                            selectedMonth = 12
+                                            selectedYear -= 1
+                                        }
+                                    }
+                                }
+                            }
+                    )
                 
                 // Selected day details
                 if let selectedDay = selectedDay,
                    let reading = dataManager.getReadingForDay(selectedDay) {
                     selectedDayDetails(reading)
+                }
+                
+                // Prev/Next day navigation helpers
+                if let selectedDay = selectedDay {
+                    HStack {
+                        Button(action: {
+                            let prevDay = selectedDay - 1
+                            if prevDay > 0, dataManager.getReadingForDay(prevDay) != nil {
+                                self.selectedDay = prevDay
+                            }
+                        }) {
+                            HStack {
+                                Image(systemName: "chevron.left")
+                                Text("Previous Day")
+                            }
+                        }
+                        .disabled(selectedDay <= 1 || dataManager.getReadingForDay(selectedDay - 1) == nil)
+                        Spacer()
+                        Button(action: {
+                            let nextDay = selectedDay + 1
+                            if dataManager.getReadingForDay(nextDay) != nil {
+                                self.selectedDay = nextDay
+                            }
+                        }) {
+                            HStack {
+                                Text("Next Day")
+                                Image(systemName: "chevron.right")
+                            }
+                        }
+                        .disabled(dataManager.getReadingForDay(selectedDay + 1) == nil)
+                    }
+                    .padding()
                 }
                 
                 Spacer()

@@ -38,7 +38,6 @@ struct ContentView: View {
         .accentColor(.blue)
         .onAppear {
             notificationManager.dataManager = dataManager
-            notificationManager.requestNotificationPermission()
         }
     }
 }

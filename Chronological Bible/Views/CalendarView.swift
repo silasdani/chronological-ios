@@ -130,27 +130,33 @@ struct CalendarView: View {
                 Text("Day \(reading.day)")
                     .font(.headline)
                     .foregroundColor(.blue)
-                
                 Spacer()
-                
                 Text(reading.date)
                     .font(.subheadline)
                     .foregroundColor(.secondary)
             }
-            
             Text(reading.text)
                 .font(.body)
                 .lineLimit(nil)
                 .multilineTextAlignment(.leading)
-            
+            if let summary = reading.summary, !summary.isEmpty {
+                Divider()
+                HStack(alignment: .top, spacing: 8) {
+                    Image(systemName: "text.bubble")
+                        .foregroundColor(.accentColor)
+                    Text(summary)
+                        .font(.callout)
+                        .foregroundColor(.primary)
+                        .multilineTextAlignment(.leading)
+                }
+                .padding(.top, 4)
+            }
             HStack {
                 Button("Today") {
                     goToToday()
                 }
                 .buttonStyle(.bordered)
-                
                 Spacer()
-                
                 Button(dataManager.isReadingCompleted(reading.day) ? "Mark as Unread" : "Mark as Read") {
                     dataManager.toggleReadingCompletion(reading.day)
                 }

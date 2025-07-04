@@ -24,13 +24,12 @@ struct SettingsView: View {
                         
                         Spacer()
                         
-                        Toggle("", isOn: $notificationManager.isNotificationsEnabled)
-                            .onChange(of: notificationManager.isNotificationsEnabled) { _, newValue in
+                        Toggle("", isOn: $notificationManager.userWantsNotifications)
+                            .onChange(of: notificationManager.userWantsNotifications) { _, newValue in
                                 if newValue {
                                     notificationManager.requestNotificationPermission()
-                                } else {
-                                    notificationManager.toggleNotifications()
                                 }
+                                // Do nothing when turning off; state is handled by didSet in NotificationManager
                             }
                     }
                     .padding(.vertical, 4)
@@ -38,6 +37,14 @@ struct SettingsView: View {
                     Text("Notifications")
                 } footer: {
                     Text("You'll receive a daily reminder at the time you set below.")
+                }
+                
+                if notificationManager.userWantsNotifications && !notificationManager.isNotificationsEnabled {
+                    Section {
+                        Text("Notifications are disabled in iOS Settings. Please enable them in Settings > Notifications > Chronological Bible.")
+                            .font(.caption)
+                            .foregroundColor(.red)
+                    }
                 }
                 
                 if notificationManager.isNotificationsEnabled {
@@ -126,11 +133,7 @@ struct SettingsView: View {
             .navigationTitle("Settings")
             .navigationBarTitleDisplayMode(.large)
             .toolbar {
-                ToolbarItem(placement: .navigationBarTrailing) {
-                    Button("Done") {
-                        dismiss()
-                    }
-                }
+                // Removed Done button as it's unused
             }
         }
     }

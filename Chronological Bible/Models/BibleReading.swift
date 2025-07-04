@@ -5,10 +5,12 @@ struct BibleReading: Codable, Identifiable {
     let day: Int
     let date: String
     let text: String
+    let summary: String?
     
-    init(day: Int, date: String, text: String) {
+    init(day: Int, date: String, text: String, summary: String? = nil) {
         self.day = day
         self.date = date
         self.text = text
+        self.summary = summary
     }
 } 

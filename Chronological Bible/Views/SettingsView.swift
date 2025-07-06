@@ -4,6 +4,7 @@ struct SettingsView: View {
     @ObservedObject var notificationManager: NotificationManager
     @ObservedObject var dataManager: BibleDataManager
     @Environment(\.dismiss) private var dismiss
+    @AppStorage("appColorScheme") private var appColorScheme: String = AppColorScheme.system.rawValue
     
     var body: some View {
         NavigationView {
@@ -143,6 +144,19 @@ struct SettingsView: View {
                     Text("Summaries")
                 } footer: {
                     Text("See a high-level overview of all summaries for the readings.")
+                }
+                
+                Section {
+                    Picker("Appearance", selection: $appColorScheme) {
+                        ForEach(AppColorScheme.allCases) { scheme in
+                            Text(scheme.label).tag(scheme.rawValue)
+                        }
+                    }
+                    .pickerStyle(.segmented)
+                } header: {
+                    Text("Appearance")
+                } footer: {
+                    Text("Choose light, dark, or follow your device's system setting.")
                 }
             }
             .navigationTitle("Settings")

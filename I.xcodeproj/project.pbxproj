@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXContainerItemProxy section */
@@ -24,27 +24,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		D40B1E822E1732400053E146 /* Chronological Bible.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "Chronological Bible.app"; path = BibleReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D40B1E822E1732400053E146 /* BibleReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BibleReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D40B1E8F2E1732410053E146 /* Chronological BibleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Chronological BibleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D40B1E992E1732410053E146 /* Chronological BibleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Chronological BibleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		D40B1E842E1732400053E146 /* Chronological Bible */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "Chronological Bible";
-			sourceTree = "<group>";
-		};
-		D40B1E922E1732410053E146 /* Chronological BibleTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "Chronological BibleTests";
-			sourceTree = "<group>";
-		};
-		D40B1E9C2E1732410053E146 /* Chronological BibleUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "Chronological BibleUITests";
-			sourceTree = "<group>";
-		};
+		D40B1E842E1732400053E146 /* Chronological Bible */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = "Chronological Bible"; sourceTree = "<group>"; };
+		D40B1E922E1732410053E146 /* Chronological BibleTests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = "Chronological BibleTests"; sourceTree = "<group>"; };
+		D40B1E9C2E1732410053E146 /* Chronological BibleUITests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = "Chronological BibleUITests"; sourceTree = "<group>"; };
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,7 +73,7 @@
 		D40B1E832E1732400053E146 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D40B1E822E1732400053E146 /* Chronological Bible.app */,
+				D40B1E822E1732400053E146 /* BibleReader.app */,
 				D40B1E8F2E1732410053E146 /* Chronological BibleTests.xctest */,
 				D40B1E992E1732410053E146 /* Chronological BibleUITests.xctest */,
 			);
@@ -114,7 +102,7 @@
 			packageProductDependencies = (
 			);
 			productName = "Chronological Bible";
-			productReference = D40B1E822E1732400053E146 /* Chronological Bible.app */;
+			productReference = D40B1E822E1732400053E146 /* BibleReader.app */;
 			productType = "com.apple.product-type.application";
 		};
 		D40B1E8E2E1732410053E146 /* Chronological BibleTests */ = {
@@ -187,6 +175,7 @@
 				};
 			};
 			buildConfigurationList = D40B1E7D2E1732400053E146 /* Build configuration list for PBXProject "Chronological Bible" */;
+			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -195,7 +184,6 @@
 			);
 			mainGroup = D40B1E792E1732400053E146;
 			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 77;
 			productRefGroup = D40B1E832E1732400053E146 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";

@@ -12,27 +12,37 @@
 			containerPortal = D40B1E7A2E1732400053E146 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = D40B1E812E1732400053E146;
-			remoteInfo = "Chronological Bible";
+			remoteInfo = TimeScripture;
 		};
 		D40B1E9A2E1732410053E146 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D40B1E7A2E1732400053E146 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = D40B1E812E1732400053E146;
-			remoteInfo = "Chronological Bible";
+			remoteInfo = TimeScripture;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		D40B1E822E1732400053E146 /* BibleReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BibleReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D40B1E8F2E1732410053E146 /* Chronological BibleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Chronological BibleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D40B1E992E1732410053E146 /* Chronological BibleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Chronological BibleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D40B1E822E1732400053E146 /* TimeScripture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeScripture.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D40B1E8F2E1732410053E146 /* TimeScriptureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimeScriptureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D40B1E992E1732410053E146 /* TimeScriptureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimeScriptureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		D446573A2E2161E000D9E183 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = D40B1E812E1732400053E146 /* TimeScripture */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		D40B1E842E1732400053E146 /* Chronological Bible */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = "Chronological Bible"; sourceTree = "<group>"; };
-		D40B1E922E1732410053E146 /* Chronological BibleTests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = "Chronological BibleTests"; sourceTree = "<group>"; };
-		D40B1E9C2E1732410053E146 /* Chronological BibleUITests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = "Chronological BibleUITests"; sourceTree = "<group>"; };
+		D40B1E842E1732400053E146 /* TimeScripture */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (D446573A2E2161E000D9E183 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = TimeScripture; sourceTree = "<group>"; };
+		D40B1E922E1732410053E146 /* TimeScriptureTests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = TimeScriptureTests; sourceTree = "<group>"; };
+		D40B1E9C2E1732410053E146 /* TimeScriptureUITests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = TimeScriptureUITests; sourceTree = "<group>"; };
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,9 +73,9 @@
 		D40B1E792E1732400053E146 = {
 			isa = PBXGroup;
 			children = (
-				D40B1E842E1732400053E146 /* Chronological Bible */,
-				D40B1E922E1732410053E146 /* Chronological BibleTests */,
-				D40B1E9C2E1732410053E146 /* Chronological BibleUITests */,
+				D40B1E842E1732400053E146 /* TimeScripture */,
+				D40B1E922E1732410053E146 /* TimeScriptureTests */,
+				D40B1E9C2E1732410053E146 /* TimeScriptureUITests */,
 				D40B1E832E1732400053E146 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -73,9 +83,9 @@
 		D40B1E832E1732400053E146 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D40B1E822E1732400053E146 /* BibleReader.app */,
-				D40B1E8F2E1732410053E146 /* Chronological BibleTests.xctest */,
-				D40B1E992E1732410053E146 /* Chronological BibleUITests.xctest */,
+				D40B1E822E1732400053E146 /* TimeScripture.app */,
+				D40B1E8F2E1732410053E146 /* TimeScriptureTests.xctest */,
+				D40B1E992E1732410053E146 /* TimeScriptureUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -83,9 +93,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D40B1E812E1732400053E146 /* Chronological Bible */ = {
+		D40B1E812E1732400053E146 /* TimeScripture */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D40B1EA32E1732410053E146 /* Build configuration list for PBXNativeTarget "Chronological Bible" */;
+			buildConfigurationList = D40B1EA32E1732410053E146 /* Build configuration list for PBXNativeTarget "TimeScripture" */;
 			buildPhases = (
 				D40B1E7E2E1732400053E146 /* Sources */,
 				D40B1E7F2E1732400053E146 /* Frameworks */,
@@ -96,18 +106,18 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				D40B1E842E1732400053E146 /* Chronological Bible */,
+				D40B1E842E1732400053E146 /* TimeScripture */,
 			);
-			name = "Chronological Bible";
+			name = TimeScripture;
 			packageProductDependencies = (
 			);
-			productName = "Chronological Bible";
-			productReference = D40B1E822E1732400053E146 /* BibleReader.app */;
+			productName = TimeScripture;
+			productReference = D40B1E822E1732400053E146 /* TimeScripture.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D40B1E8E2E1732410053E146 /* Chronological BibleTests */ = {
+		D40B1E8E2E1732410053E146 /* TimeScriptureTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D40B1EA62E1732410053E146 /* Build configuration list for PBXNativeTarget "Chronological BibleTests" */;
+			buildConfigurationList = D40B1EA62E1732410053E146 /* Build configuration list for PBXNativeTarget "TimeScriptureTests" */;
 			buildPhases = (
 				D40B1E8B2E1732410053E146 /* Sources */,
 				D40B1E8C2E1732410053E146 /* Frameworks */,
@@ -119,18 +129,18 @@
 				D40B1E912E1732410053E146 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				D40B1E922E1732410053E146 /* Chronological BibleTests */,
+				D40B1E922E1732410053E146 /* TimeScriptureTests */,
 			);
-			name = "Chronological BibleTests";
+			name = TimeScriptureTests;
 			packageProductDependencies = (
 			);
-			productName = "Chronological BibleTests";
-			productReference = D40B1E8F2E1732410053E146 /* Chronological BibleTests.xctest */;
+			productName = TimeScriptureTests;
+			productReference = D40B1E8F2E1732410053E146 /* TimeScriptureTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		D40B1E982E1732410053E146 /* Chronological BibleUITests */ = {
+		D40B1E982E1732410053E146 /* TimeScriptureUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D40B1EA92E1732410053E146 /* Build configuration list for PBXNativeTarget "Chronological BibleUITests" */;
+			buildConfigurationList = D40B1EA92E1732410053E146 /* Build configuration list for PBXNativeTarget "TimeScriptureUITests" */;
 			buildPhases = (
 				D40B1E952E1732410053E146 /* Sources */,
 				D40B1E962E1732410053E146 /* Frameworks */,
@@ -142,13 +152,13 @@
 				D40B1E9B2E1732410053E146 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				D40B1E9C2E1732410053E146 /* Chronological BibleUITests */,
+				D40B1E9C2E1732410053E146 /* TimeScriptureUITests */,
 			);
-			name = "Chronological BibleUITests";
+			name = TimeScriptureUITests;
 			packageProductDependencies = (
 			);
-			productName = "Chronological BibleUITests";
-			productReference = D40B1E992E1732410053E146 /* Chronological BibleUITests.xctest */;
+			productName = TimeScriptureUITests;
+			productReference = D40B1E992E1732410053E146 /* TimeScriptureUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -174,7 +184,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D40B1E7D2E1732400053E146 /* Build configuration list for PBXProject "Chronological Bible" */;
+			buildConfigurationList = D40B1E7D2E1732400053E146 /* Build configuration list for PBXProject "TimeScripture" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -188,9 +198,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D40B1E812E1732400053E146 /* Chronological Bible */,
-				D40B1E8E2E1732410053E146 /* Chronological BibleTests */,
-				D40B1E982E1732410053E146 /* Chronological BibleUITests */,
+				D40B1E812E1732400053E146 /* TimeScripture */,
+				D40B1E8E2E1732410053E146 /* TimeScriptureTests */,
+				D40B1E982E1732410053E146 /* TimeScriptureUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -246,12 +256,12 @@
 /* Begin PBXTargetDependency section */
 		D40B1E912E1732410053E146 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D40B1E812E1732400053E146 /* Chronological Bible */;
+			target = D40B1E812E1732400053E146 /* TimeScripture */;
 			targetProxy = D40B1E902E1732410053E146 /* PBXContainerItemProxy */;
 		};
 		D40B1E9B2E1732410053E146 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D40B1E812E1732400053E146 /* Chronological Bible */;
+			target = D40B1E812E1732400053E146 /* TimeScripture */;
 			targetProxy = D40B1E9A2E1732410053E146 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -388,9 +398,9 @@
 				DEVELOPMENT_TEAM = 46VVG43CAF;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TimeScripture/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = NO;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -399,11 +409,12 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ro.bible.chronological.BibleReader;
-				PRODUCT_NAME = BibleReader;
+				PRODUCT_BUNDLE_IDENTIFIER = ro.bible.chronological.TimeScripture;
+				PRODUCT_NAME = TimeScripture;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				APP_DISPLAY_NAME = "TimeScripture";
 			};
 			name = Debug;
 		};
@@ -417,9 +428,9 @@
 				DEVELOPMENT_TEAM = 46VVG43CAF;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TimeScripture/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = NO;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -428,11 +439,12 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ro.bible.chronological.BibleReader;
-				PRODUCT_NAME = BibleReader;
+				PRODUCT_BUNDLE_IDENTIFIER = ro.bible.chronological.TimeScripture;
+				PRODUCT_NAME = TimeScripture;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				APP_DISPLAY_NAME = "TimeScripture";
 			};
 			name = Release;
 		};
@@ -451,7 +463,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chronological Bible.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Chronological Bible";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TimeScripture.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TimeScripture";
 			};
 			name = Debug;
 		};
@@ -470,7 +482,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chronological Bible.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Chronological Bible";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TimeScripture.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TimeScripture";
 			};
 			name = Release;
 		};
@@ -487,7 +499,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Chronological Bible";
+				TEST_TARGET_NAME = TimeScripture;
 			};
 			name = Debug;
 		};
@@ -504,14 +516,14 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Chronological Bible";
+				TEST_TARGET_NAME = TimeScripture;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D40B1E7D2E1732400053E146 /* Build configuration list for PBXProject "Chronological Bible" */ = {
+		D40B1E7D2E1732400053E146 /* Build configuration list for PBXProject "TimeScripture" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D40B1EA12E1732410053E146 /* Debug */,
@@ -520,7 +532,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D40B1EA32E1732410053E146 /* Build configuration list for PBXNativeTarget "Chronological Bible" */ = {
+		D40B1EA32E1732410053E146 /* Build configuration list for PBXNativeTarget "TimeScripture" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D40B1EA42E1732410053E146 /* Debug */,
@@ -529,7 +541,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D40B1EA62E1732410053E146 /* Build configuration list for PBXNativeTarget "Chronological BibleTests" */ = {
+		D40B1EA62E1732410053E146 /* Build configuration list for PBXNativeTarget "TimeScriptureTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D40B1EA72E1732410053E146 /* Debug */,
@@ -538,7 +550,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D40B1EA92E1732410053E146 /* Build configuration list for PBXNativeTarget "Chronological BibleUITests" */ = {
+		D40B1EA92E1732410053E146 /* Build configuration list for PBXNativeTarget "TimeScriptureUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D40B1EAA2E1732410053E146 /* Debug */,

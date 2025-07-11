@@ -2,10 +2,9 @@ import SwiftUI
 
 struct CalendarView: View {
     @ObservedObject var dataManager: BibleDataManager
-    @State private var selectedMonth = Calendar.current.component(.month, from: Date())
-    @State private var selectedYear = Calendar.current.component(.year, from: Date())
+    @State private var selectedMonth: Int = Calendar.current.component(.month, from: Date())
+    @State private var selectedYear: Int = Calendar.current.component(.year, from: Date())
     @State private var selectedDay: Int?
-    
     private let months = [
         "January", "February", "March", "April", "May", "June",
         "July", "August", "September", "October", "November", "December"

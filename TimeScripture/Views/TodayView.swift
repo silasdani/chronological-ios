@@ -6,44 +6,42 @@ struct TodayView: View {
     
     var body: some View {
         NavigationView {
-            ScrollView {
-                VStack(spacing: 24) {
-                    if dataManager.isLoading {
-                        ProgressView("Loading today's reading...")
-                            .frame(maxWidth: .infinity, maxHeight: .infinity)
-                    } else if let errorMessage = dataManager.errorMessage {
-                        VStack {
-                            Image(systemName: "exclamationmark.triangle")
-                                .font(.largeTitle)
-                                .foregroundColor(.orange)
-                            Text("Error")
-                                .font(.headline)
-                            Text(errorMessage)
-                                .font(.body)
-                                .multilineTextAlignment(.center)
-                                .foregroundColor(.secondary)
-                        }
+            VStack(spacing: 24) {
+                if dataManager.isLoading {
+                    ProgressView("Loading today's reading...")
                         .frame(maxWidth: .infinity, maxHeight: .infinity)
-                    } else if let todayReading = dataManager.getCurrentDayReading() {
-                        todayReadingContent(todayReading)
-                    } else {
-                        VStack {
-                            Image(systemName: "book.closed")
-                                .font(.largeTitle)
-                                .foregroundColor(.blue)
-                            Text("No reading for today")
-                                .font(.headline)
-                            Text("Check the calendar for available readings")
-                                .font(.body)
-                                .foregroundColor(.secondary)
-                        }
-                        .frame(maxWidth: .infinity, maxHeight: .infinity)
+                } else if let errorMessage = dataManager.errorMessage {
+                    VStack {
+                        Image(systemName: "exclamationmark.triangle")
+                            .font(.largeTitle)
+                            .foregroundColor(.orange)
+                        Text("Error")
+                            .font(.headline)
+                        Text(errorMessage)
+                            .font(.body)
+                            .multilineTextAlignment(.center)
+                            .foregroundColor(.secondary)
                     }
-                    
-                    Spacer(minLength: 100)
+                    .frame(maxWidth: .infinity, maxHeight: .infinity)
+                } else if let todayReading = dataManager.getCurrentDayReading() {
+                    todayReadingContent(todayReading)
+                } else {
+                    VStack {
+                        Image(systemName: "book.closed")
+                            .font(.largeTitle)
+                            .foregroundColor(.blue)
+                        Text("No reading for today")
+                            .font(.headline)
+                        Text("Check the calendar for available readings")
+                            .font(.body)
+                            .foregroundColor(.secondary)
+                    }
+                    .frame(maxWidth: .infinity, maxHeight: .infinity)
                 }
-                .padding()
+                
+                Spacer(minLength: 100)
             }
+            .padding()
             .navigationTitle("Today's Reading")
             .navigationBarTitleDisplayMode(.large)
         }
@@ -111,7 +109,7 @@ struct TodayView: View {
                 }
             }
             .padding()
-            .background(Color(uiColor: .systemGray6))
+            .background(Color(.systemGray6))
             .cornerRadius(12)
         }
     }
@@ -197,7 +195,7 @@ struct TodayView: View {
                 .cornerRadius(4)
         }
         .padding()
-        .background(Color(uiColor: .systemBackground))
+        .background(Color(.systemBackground))
         .cornerRadius(16)
         .shadow(color: Color.black.opacity(0.04), radius: 6, x: 0, y: 2)
     }
@@ -234,7 +232,7 @@ struct ProgressCard: View {
         }
         .frame(maxWidth: .infinity)
         .padding()
-        .background(Color(uiColor: .systemBackground))
+        .background(Color(.systemBackground))
         .cornerRadius(12)
     }
 } 

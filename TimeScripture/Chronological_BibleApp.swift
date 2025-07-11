@@ -22,10 +22,21 @@ struct Chronological_BibleApp: App {
 
 class AppDelegate: NSObject, UIApplicationDelegate, UNUserNotificationCenterDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
-        
         // Set up notification delegate
         UNUserNotificationCenter.current().delegate = self
-        
+
+        // Remove all pending and delivered notifications
+        UNUserNotificationCenter.current().removeAllPendingNotificationRequests()
+        UNUserNotificationCenter.current().removeAllDeliveredNotifications()
+
+        // Print all pending notifications at launch
+        UNUserNotificationCenter.current().getPendingNotificationRequests { requests in
+            print("Pending notifications at launch:")
+            for req in requests {
+                print("\(req.identifier): \(req.content.title) - \(req.content.body)")
+            }
+        }
+
         // Clear badge when app launches
         clearBadge()
         
@@ -65,10 +76,13 @@ class AppDelegate: NSObject, UIApplicationDelegate, UNUserNotificationCenterDele
     }
     
     private func clearBadge() {
+        // Clear badge count and update last notification date
         UNUserNotificationCenter.current().setBadgeCount(0) { error in
             if let error = error {
                 print("Error clearing badge: \(error)")
             }
         }
+        // Update last notification date to prevent badge accumulation
+        UserDefaults.standard.set(Date(), forKey: "LastNotificationDate")
     }
 }

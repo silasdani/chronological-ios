@@ -16,9 +16,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "D40B1E812E1732400053E146"
-               BuildableName = "BibleReader.app"
-               BlueprintName = "Chronological Bible"
-               ReferencedContainer = "container:Chronological Bible.xcodeproj">
+               BuildableName = "TimeScripture.app"
+               BlueprintName = "TimeScripture"
+               ReferencedContainer = "container:TimeScripture.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -36,9 +36,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "D40B1E8E2E1732410053E146"
-               BuildableName = "Chronological BibleTests.xctest"
-               BlueprintName = "Chronological BibleTests"
-               ReferencedContainer = "container:Chronological Bible.xcodeproj">
+               BuildableName = "TimeScriptureTests.xctest"
+               BlueprintName = "TimeScriptureTests"
+               ReferencedContainer = "container:I.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -47,9 +47,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "D40B1E982E1732410053E146"
-               BuildableName = "Chronological BibleUITests.xctest"
-               BlueprintName = "Chronological BibleUITests"
-               ReferencedContainer = "container:Chronological Bible.xcodeproj">
+               BuildableName = "TimeScriptureUITests.xctest"
+               BlueprintName = "TimeScriptureUITests"
+               ReferencedContainer = "container:I.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -69,9 +69,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D40B1E812E1732400053E146"
-            BuildableName = "BibleReader.app"
-            BlueprintName = "Chronological Bible"
-            ReferencedContainer = "container:Chronological Bible.xcodeproj">
+            BuildableName = "TimeScripture.app"
+            BlueprintName = "TimeScripture"
+            ReferencedContainer = "container:I.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -86,11 +86,20 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D40B1E812E1732400053E146"
-            BuildableName = "BibleReader.app"
-            BlueprintName = "Chronological Bible"
-            ReferencedContainer = "container:Chronological Bible.xcodeproj">
+            BuildableName = "TimeScripture.app"
+            BlueprintName = "TimeScripture"
+            ReferencedContainer = "container:I.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "D40B1E812E1732400053E146"
+            BuildableName = "TimeScripture.app"
+            BlueprintName = "TimeScripture"
+            ReferencedContainer = "container:I.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

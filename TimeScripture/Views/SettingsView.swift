@@ -42,7 +42,7 @@ struct SettingsView: View {
                 
                 if notificationManager.userWantsNotifications && !notificationManager.isNotificationsEnabled {
                     Section {
-                        Text("Notifications are disabled in iOS Settings. Please enable them in Settings > Notifications > Chronological Bible.")
+                        Text("Notifications are disabled in iOS Settings. Please enable them in Settings > Notifications > TimeScripture.")
                             .font(.caption)
                             .foregroundColor(.red)
                     }
@@ -108,7 +108,7 @@ struct SettingsView: View {
                                 .font(.headline)
                         }
                         
-                        Text("This app helps you follow a chronological Bible reading plan throughout the year. Each day shows you which passages to read in the order they occurred historically.")
+                        Text("This app helps you follow a chronological Bible reading plan throughout the year. Each day shows you which passages to read in the order they occurred historically. TimeScripture makes it easy to stay on track with daily reminders and a beautiful reading experience.")
                             .font(.body)
                             .foregroundColor(.secondary)
                     }
@@ -123,7 +123,7 @@ struct SettingsView: View {
                             .font(.caption)
                             .foregroundColor(.secondary)
                         
-                        Text("© 2025 Chronological Bible Reader")
+                        Text("© 2025 TimeScripture")
                             .font(.caption)
                             .foregroundColor(.secondary)
                     }
